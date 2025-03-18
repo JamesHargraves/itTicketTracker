@@ -1,7 +1,7 @@
 // Google Sheets API configuration
-const SPREADSHEET_ID = process.env.SPREADSHEET_ID || 'YOUR_SPREADSHEET_ID'; // Replace with your Google Sheet ID
-const API_KEY = process.env.GOOGLE_SHEETS_API_KEY || 'YOUR_API_KEY'; // Replace with your Google Sheets API key
-const SHEET_NAME = process.env.SHEET_NAME || 'Tickets'; // Replace with your sheet name
+const SPREADSHEET_ID = process.env.SPREADSHEET_ID || '1IFqo7kLEbABMmeVIw9jobB94Li-GXLXD4VZtOkDT2tA'; // Replace with your Google Sheet ID
+const API_KEY = process.env.GOOGLE_SHEETS_API_KEY || 'AIzaSyCsS0YUVW8UYfcRDrp7Jsv9mh6G1ozbetk'; // Replace with your Google Sheets API key
+const SHEET_NAME = process.env.SHEET_NAME || 'ITSupportTicket (Responses)'; // Replace with your sheet name
 
 // DOM Elements
 const searchForm = document.getElementById('searchForm');
